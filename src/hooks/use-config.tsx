@@ -39,6 +39,7 @@ interface ISpeedInfo {
   value: number;
   start: Date;
   end: Date | null;
+  speed: number;
 }
 
 interface IStatics {
@@ -79,6 +80,7 @@ const defaultStatics: IStatics = {
     value: 0,
     start: new Date(),
     end: new Date(),
+    speed: 0,
   },
 };
 
@@ -268,6 +270,7 @@ export const useConfig = () => {
       value: s.value,
       start: new Date(s.start),
       end: s.end ? new Date(s.end) : null,
+      speed: s.speed
     };
   }, [config.statics.speed])();
 
