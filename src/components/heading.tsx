@@ -209,10 +209,7 @@ const Header = ({ label: _label }: { label?: string }) => {
                         <div>Жылдамдық</div>
                         <div className="text-right my-1">
                           <span className="text-xl">
-                            {(statics.speed.speed &&
-                              (statics.speed.speed > 300
-                                ? 0
-                                : statics.speed.speed)) ||
+                            {(statics.speed.speed) ||
                               0}
                           </span>{' '}
                           <span>wpm</span>
