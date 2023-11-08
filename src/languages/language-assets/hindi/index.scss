@@ -1,0 +1,19 @@
+@font-face {font-family:"Hindi";src:url("hindi.ttf") format("truetype");font-weight:normal;font-style:normal;}
+
+.Hindi {
+  .letter,
+  .dual {
+    font-family: Hindi;
+  }
+
+  &.typing-view * {
+    font: 35px/35px Hindi;
+  }
+
+  &.story-typing {
+    font: 25px/25px Hindi;
+  }
+  &.freeTA {
+    font: 25px/25px Hindi;
+  }
+}

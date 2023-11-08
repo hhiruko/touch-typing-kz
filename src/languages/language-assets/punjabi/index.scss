@@ -1,0 +1,18 @@
+@font-face {font-family:"Punjabi";src:url("punjabi.ttf") format("truetype");font-weight:normal;font-style:normal;}
+
+.Punjabi {
+  .letter,
+  .dual {
+    font-family: Punjabi;
+  }
+
+  &.typing-view * {
+    font: 35px/35px Punjabi;
+  }
+  &.story-typing {
+    font: 25px/25px Punjabi;
+  }
+  &.freeTA {
+    font: 25px/25px Punjabi;
+  }
+}

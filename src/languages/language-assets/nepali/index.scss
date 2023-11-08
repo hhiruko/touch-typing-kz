@@ -1,0 +1,20 @@
+@font-face {font-family:"Nepali";src:url("nepali.ttf") format("truetype");font-weight:normal;font-style:normal;}
+
+.Nepali {
+  .letter,
+  .dual {
+    font-family: Nepali;
+  }
+
+  &.typing-view * {
+    font: 35px/35px Nepali;
+  }
+
+  &.story-typing * {
+    font: 25px/25px Nepali;
+  }
+
+  &.freeTA {
+    font: 25px/25px Nepali;
+  }
+}

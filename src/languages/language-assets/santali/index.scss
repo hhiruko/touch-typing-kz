@@ -1,0 +1,19 @@
+@font-face {font-family:"Santali";src:url("santali.ttf") format("truetype");font-weight:normal;font-style:normal;}
+
+.Santali {
+  .letter,
+  .dual {
+    font-family: Santali;
+  }
+
+  &.typing-view * {
+    font: 35px/35px Santali;
+  }
+
+  &.story-typing {
+    font: 25px/25px Santali;
+  }
+  &.freeTA {
+    font: 25px/25px Santali;
+  }
+}

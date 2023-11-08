@@ -1,0 +1,16 @@
+.English {
+  .letter,
+  .dual {
+    font-family: English;
+  }
+
+  &.typing-view * {
+    font: 35px/35px English;
+  }
+  &.story-typing {
+    @apply font-roboto_mono;
+  }
+  &.freeTA {
+    font: 25px/25px English;
+  }
+}

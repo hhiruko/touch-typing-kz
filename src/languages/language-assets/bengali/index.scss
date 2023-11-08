@@ -1,0 +1,18 @@
+@font-face {font-family:"Bengali";src:url("bengali.ttf") format("truetype");font-weight:normal;font-style:normal;}
+
+.Bengali {
+  .letter,
+  .dual {
+    font-family: Bengali;
+  }
+
+  &.typing-view * {
+    font: 35px/35px Bengali;
+  }
+  &.story-typing {
+    font: 35px/35px Bengali;
+  }
+  &.freeTA {
+    font: 35px/35px Bengali;
+  }
+}

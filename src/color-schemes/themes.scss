@@ -1,0 +1,71 @@
+@layer base{
+  .light-default{
+
+          --color-primary-50: #999;
+          --color-primary-100: #888;
+          --color-primary-200: #777;
+          --color-primary-300: #666;
+          --color-primary-400: #555;
+          --color-primary-500: #444;
+          --color-primary-600: #333333;
+          --color-primary-700: #222222;
+          --color-primary-800: #111111;
+          --color-primary-900: #000000;
+
+          --color-background: #ffffff;
+          --color-keyboard: #eeeeee;
+          --color-key: #ffffff;
+          --color-keyactive: #111111;
+  }
+  .light-purple{
+          --color-primary-50: #ffffff;
+          --color-primary-100: #F9F7FF;
+          --color-primary-200: #DED0FC;
+          --color-primary-300: #C2A9FA;
+          --color-primary-400: #A783F8;
+          --color-primary-500: #8B5CF6;
+          --color-primary-600: #6527F3;
+          --color-primary-700: #4A0CD6;
+          --color-primary-800: #3709A1;
+          --color-primary-900: #25066C;
+          --color-background: #ffffff;
+          --color-keyboard: #eeeeee;
+          --color-key: #ffffff;
+          --color-keyactive: #8B5CF6;
+    }
+
+  .light-red{
+          --color-primary-50:  #FDEEF6;
+          --color-primary-100: #FBDCEB;
+          --color-primary-200: #F8B7D7;
+          --color-primary-300: #F492C2;
+          --color-primary-400: #F06DAE;
+          --color-primary-500: #EC4899;
+          --color-primary-600: #E4187D;
+          --color-primary-700: #B11261;
+          --color-primary-800: #7F0D45;
+          --color-primary-900: #4C0829;
+          --color-background: #ffffff;
+          --color-keyboard: #eeeeee;
+          --color-key: #ffffff;
+          --color-keyactive: #8B5CF6;
+    }
+
+  .dark-teal{
+        --color-primary-50: #0D1916;
+        --color-primary-100: #203E37;
+        --color-primary-200: #336258;
+        --color-primary-300: #478778;
+        --color-primary-400: #5CAA98;
+        --color-primary-500: #77B8A9;
+        --color-primary-600: #92C6BA;
+        --color-primary-700: #ACD4CB;
+        --color-primary-800: #C7E2DC;
+        --color-primary-900: #D5E9E4;
+
+        --color-background: #2C3333;
+        --color-keyboard: #222222;
+        --color-key: #111111;
+        --color-keyactive: #478878;
+    }
+}

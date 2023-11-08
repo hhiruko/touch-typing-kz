@@ -1,0 +1,18 @@
+@font-face {font-family:"Urdu";src:url("urdu.ttf") format("truetype");font-weight:normal;font-style:normal;}
+
+.Urdu {
+  .letter,
+  .dual {
+    font-family: Urdu;
+  }
+
+  &.typing-view * {
+    font: 35px/35px Urdu;
+  }
+  &.story-typing {
+    font-family: Urdu;
+  }
+  &.freeTA {
+    font: 25px/25px Urdu;
+  }
+}
