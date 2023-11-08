@@ -122,6 +122,7 @@ const Lessons = () => {
           value: 0,
           start: new Date(),
           end: null,
+          speed: ''
         });
       } else {
         if (speed.end && speed.end.getSeconds() === new Date().getSeconds()) {
@@ -169,6 +170,7 @@ const Lessons = () => {
       value: 0,
       start: new Date(),
       end: null,
+      speed: '',
     });
     handleStrings();
     setrefresh(!refresh);
@@ -179,6 +181,7 @@ const Lessons = () => {
       value: 0,
       start: new Date(),
       end: null,
+      speed: '',
     });
     setIndex(0);
     setwrongInputCount(0);

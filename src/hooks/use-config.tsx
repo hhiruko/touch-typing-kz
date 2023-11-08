@@ -39,7 +39,7 @@ interface ISpeedInfo {
   value: number;
   start: Date;
   end: Date | null;
-  speed: number;
+  speed: string;
 }
 
 interface IStatics {
@@ -80,7 +80,7 @@ const defaultStatics: IStatics = {
     value: 0,
     start: new Date(),
     end: new Date(),
-    speed: 0,
+    speed: '',
   },
 };
 

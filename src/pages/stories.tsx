@@ -88,6 +88,7 @@ const Stories = () => {
           value: 0,
           start: new Date(),
           end: null,
+          speed: '',
         });
       } else {
         // console.log(speed, 'skiped');
@@ -153,6 +154,7 @@ const Stories = () => {
       value: 0,
       start: new Date(),
       end: null,
+      speed: '',
     });
   }, [storyInfo.index]);
 
