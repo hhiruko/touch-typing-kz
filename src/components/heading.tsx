@@ -96,7 +96,7 @@ const Header = ({ label: _label }: { label?: string }) => {
             <div className="relative origin-bottom-left flex flex-col items-start border-l gap-1 border-primary-900 text-xs z-[999]">
               {[
                 { link: '/lessons', label: 'Сабақтар' },
-                { link: '/stories', label: 'Мәтін' },
+                { link: '/story', label: 'Мәтін' },
                 { link: '/random-type', label: 'Практика' },
               ].map(({ link, label }) => (
                 <Link
@@ -209,7 +209,7 @@ const Header = ({ label: _label }: { label?: string }) => {
                         <div>Жылдамдық</div>
                         <div className="text-right my-1">
                           <span className="text-xl">
-                            {(statics.speed.speed) ||
+                            {(parseInt(statics.speed.speed) < 300 ? statics.speed.speed : '0') ||
                               0}
                           </span>{' '}
                           <span>wpm</span>
@@ -260,7 +260,7 @@ const Header = ({ label: _label }: { label?: string }) => {
                 
                     </>
                   )}
-                  {page === 'story' && (
+                  {/*page === 'story' && (
                     <Selector
                       options={storyList.map((_, i) => ({
                         value: i,
@@ -286,7 +286,7 @@ const Header = ({ label: _label }: { label?: string }) => {
                       }}
                       label="Мәтін"
                     />
-                  )}
+                    )*/}
                 </div>
 
                 <div className="flex flex-col gap-1 py-1">

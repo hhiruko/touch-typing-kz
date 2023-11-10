@@ -38,7 +38,7 @@ const Home = () => {
                   label: 'Сабақтар',
                   icon: <FaUserGraduate />,
                 },
-                { link: '/stories', label: 'Мәтін', icon: <FaBookOpen /> },
+                { link: '/story', label: 'Мәтін', icon: <FaBookOpen /> },
                 // {
                 //   link: '/custom-stories',
                 //   label: 'Custom Stories',
